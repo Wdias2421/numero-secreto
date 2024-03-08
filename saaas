@@ -1,6 +1,6 @@
 print("<===============================>")
-print("+++++++ONINONINONINONINONI+++++++")
-print("+++++++++++++++++++++++++++++++++")
+print("=======ONINONINONINONINONI=======")
+print("=================================")
 
 import random
 NUN = random.randrange(1,10)
@@ -24,4 +24,5 @@ while(total > 0):
             print("Foi menor! muleque do djanho")
             
     total = total -1
+
 print("fim de jogo)
