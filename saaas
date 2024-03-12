@@ -16,7 +16,9 @@ while(total > 0):
     menor  = laal < NUN
 
     if(certou):
-        print("+++++certou mizeravi+++++")
+        print("=======Acertou mizeravi=======")
+        
+        print("fim de jogo")
     else:
         if(maior):
             print("Foi maior!")
@@ -24,5 +26,3 @@ while(total > 0):
             print("Foi menor! muleque do djanho")
             
     total = total -1
-
-print("fim de jogo)
