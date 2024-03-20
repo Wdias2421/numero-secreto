@@ -1,9 +1,9 @@
-print("<===============================>")
-print("=======ONINONINONINONINONI=======")
-print("=================================")
+print("{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}")
+print("{{{{[[ONINONINONINONINONI]]}}}}}")
+print("{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}")
 
 import random
-NUN = random.randrange(1,10)
+NUN = random.randrange(1,100)
 total = 5
 
 while(total > 0):
@@ -16,13 +16,17 @@ while(total > 0):
     menor  = laal < NUN
 
     if(certou):
-        print("=======Acertou mizeravi=======")
+        print("{[{[{[{[{[{[{[{[{ACERTOU}]}]}]}]}]}]}]}]}")
         
-        print("fim de jogo")
+        print("GAME OVER")
+        total = 0
     else:
         if(maior):
             print("Foi maior!")
         elif(menor):
-            print("Foi menor! muleque do djanho")
+            print("Foi menor!")
             
     total = total -1
+    
+if  (total == 0):
+    print("O NÚMERO ERA", NUN)
